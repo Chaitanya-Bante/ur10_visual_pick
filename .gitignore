@@ -1,4 +1,22 @@
 .depthai_cached_models/
 test/
 .codex
-ur10_visual_pick/__pycache__
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ROS 2 / colcon
+build/
+install/
+log/
+.colcon/
+.ros/
+
+# Editors
+.vscode/
+.idea/
+
+# Python packaging
+*.egg-info/
+dist/
