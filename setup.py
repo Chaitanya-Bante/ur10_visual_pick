@@ -26,6 +26,7 @@ setup(
         'console_scripts': [
             'vision_servoing = ur10_visual_pick.vision_servoing:main',
             'gripper_test = ur10_visual_pick.test:main',
+            'llm_command = ur10_visual_pick.llm_command_node:main',
         ],
     },
 )

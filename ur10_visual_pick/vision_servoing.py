@@ -60,7 +60,7 @@ class UR10VisualServoing(Node):
 
         # Wrist3 orientation behavior.
         self.WRIST3_SIGN = -1.0
-        self.WRIST3_OFFSET_DEG = 0.0
+        self.WRIST3_OFFSET_DEG = 90.0
         self.WRIST3_MAX_ROT_DEG = 120.0
 
         # Selection mode and anti-retracking behavior.
